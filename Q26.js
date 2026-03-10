@@ -5,11 +5,7 @@ function strPalindrome(str){
         reversed += str[i]
     }
 
-    if(str === reversed){
-        return "It is a Palindrome"
-    }else{
-        return "Not a Palindrome"
-    }
+    return str === reversed
 }
 console.log(strPalindrome("madam"))
 console.log(strPalindrome("hello"))
